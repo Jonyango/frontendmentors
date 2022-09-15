@@ -1,0 +1,16 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+}
+img{
+  width: 100%;
+}
+
+
+.background{
+  background-image: url('images/bg-intro-mobile.svg');
+}
