@@ -19,7 +19,27 @@ body{
 img{
   width: 100%;
 }
+.mobile-navigation{
+  position: fixed;
+  top: 0;
+  background-color: var(--White);
+  width: 100%;
+}
 
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em;
+}
+
+.logo{
+  width: 45%;
+}
+
+.hamburger-menu{
+  width: 8%;
+}
 .page__subtitle{
   font-weight: 300;
   color: var(--DarkBlue);
@@ -37,6 +57,25 @@ img{
   background-image: url('images/bg-intro-mobile.svg');
 }
 
+.container{
+  text-align: center;
+  padding:0 1.25em;
+
+}
+
+.title{
+  color: var(--DarkBlue);
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.sub-title{
+line-height: 150%;
+color:var(--GrayishBlue);
+padding: 1.5em 0;
+
+}
+
 .features__section{
   background-color: var(--VeryLightGray);
   text-align: center;
@@ -52,6 +91,11 @@ margin:1.55em 0;
   color:var(--DarkBlue);
   margin-bottom:1em;
   font-weight: 300;
+}
+
+
+.mockup-img{
+  margin-top: -6.5em;
 }
 
 .quality__container p{
@@ -121,13 +165,13 @@ margin:1.55em 0;
 }
 
 .attribution{
-  color: var(--BrightCyan);
+  color: var(--LimeGreen);
   padding-bottom: 1em;
 }
 
 .attribution a{
   text-decoration: none;
-  color: var(--LightGrayishBlue);
+  color: var(--VeryLightGray);
 }
 
 
