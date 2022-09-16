@@ -103,6 +103,42 @@ margin:1.55em 0;
   line-height: 150%;
 }
 
+.article__container{
+  padding:0 1.25em;
+  background-color: var(--LightGrayishBlue);
+
+
+}
+
+.article__container h2{
+  text-align: center;
+}
+
+.article__card{
+  border-radius: 24px;
+  background-color: var(--White);
+  margin-bottom: 2em;
+}
+
+.author{
+  color: var(--GrayishBlue);
+  font-weight: 400;
+  margin:1.25em 0;
+  padding:0 1.5em;
+}
+
+.article__title{
+  color: var(--DarkBlue);
+  font-weight: 400;
+  margin-bottom: .75em;
+  padding:0 1.5em;
+}
+
+.article__details{
+  color: var(--GrayishBlue);
+  padding:0 1.5em;
+  padding-bottom: 3em;
+}
 .footer__container{
   background-color: var(--DarkBlue);
 }
